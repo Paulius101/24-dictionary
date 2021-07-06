@@ -2,8 +2,9 @@ body {
   background-color: #00248b;
 }
 .dictionary {
-  display: inline-block;
-  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
   position: absolute;
   top: 20%;
   left: 50%;
@@ -54,7 +55,10 @@ form input {
   box-shadow: 0 4px 10px #0004;
 }
 .mygtukai > #save:hover,
-#reset:hover {
+#reset:hover,
+#update_button:hover,
+#cancel_button:hover,
+.btn:hover {
   cursor: pointer;
   transform: scale(1.1);
 }

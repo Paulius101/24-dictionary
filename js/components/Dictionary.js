@@ -78,7 +78,7 @@ class Dictionary {
             <label for="lt-update">Lietuviu</label>
             <input type="text" id="lt-update">
             <button id="update_button" type="submit">Update</button>
-            <button id="cancel_button" type="button">Delete</button>
+            <button id="cancel_button" type="button">Cancel</button>
         </form>
         </div>`
     }
