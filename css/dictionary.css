@@ -5,10 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 900px;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -20%);
+  margin: 50px calc(50% - 450px);
 }
 .top {
   border: 1px dashed white;
@@ -91,6 +88,8 @@ h2 {
   text-align: center;
 }
 .list {
+  height: calc(100vh - 300px);
+  overflow-y: scroll;
   display: flex;
   width: 100%;
   flex-direction: column;
