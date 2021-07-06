@@ -3,13 +3,13 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-# TODO
+# Dictionary
 
 _28 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://paulius101.github.io/23-todo/
+Site published at https://paulius101.github.io/24-dictionary/
 
 Design: improvized 🎅
 
