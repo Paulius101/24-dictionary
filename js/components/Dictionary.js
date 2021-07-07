@@ -132,7 +132,7 @@ class Dictionary {
         const deleteDOM = this.listDOM.querySelector('.delete')
 
         deleteDOM.addEventListener('click', (e) => {
-            if (!confirm('Ar tikrai norite prideti irasa')) {
+            if (!confirm('Ar tikrai norite istrinti irasa?')) {
                 return false;
             }
             ivestysActionsDOM.remove();
