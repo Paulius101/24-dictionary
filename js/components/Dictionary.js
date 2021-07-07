@@ -88,7 +88,7 @@ class Dictionary {
                 <div class="english-title">
                     <h2>EN</h2>
                 </div>
-                <div class="lithuanian-tile">
+                <div class="lithuanian-title">
                     <h2>LT</h2>
                 </div>
                 <div class="actions">

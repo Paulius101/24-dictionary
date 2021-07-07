@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 900px;
+  max-width: 900px;
   margin: 50px calc(50% - 450px);
 }
 
@@ -26,6 +26,20 @@ form {
   margin: 30px 60px;
   font-size: 18px;
 }
+
+@media (max-width: 640px) {
+  .list,
+  .ivestis,
+  .titles,
+  .dictionary,
+  .top,
+  form {
+    display: grid;
+    max-width: 300px;
+    margin: 50px calc(50% - 150px);
+  }
+}
+
 .hide {
   display: none;
 }
@@ -85,13 +99,10 @@ h1 {
   padding-right: 150px;
   border-right: 1px white solid;
 }
-.lithuanian-tile {
+.lithuanian-title {
   padding-left: 50px;
   padding-right: 170px;
   border-right: 1px white solid;
-}
-h2 {
-  text-align: center;
 }
 .list {
   height: calc(100vh - 300px);
