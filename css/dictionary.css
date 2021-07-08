@@ -152,8 +152,11 @@ h1 {
   .top,
   form {
     display: grid;
-    max-width: 300px;
+    max-width: 411px;
     margin: 50px calc(50% - 150px);
+  }
+  .hide {
+    display: none;
   }
   .anglu,
   .lietuviu,
