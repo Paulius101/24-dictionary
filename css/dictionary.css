@@ -148,6 +148,7 @@ h1 {
 
 @media (max-width: 640px) {
   .list,
+  .dictionary,
   .ivestis,
   .top,
   form {
