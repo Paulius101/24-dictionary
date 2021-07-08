@@ -73,25 +73,31 @@ class Dictionary {
         return `<div class="top hide" id="update_task">
             <h1>Dictionary</h1>
              <form>
+             <div class="anglu">
             <label for="en-update">English</label>
             <input type="text" id="en-update">
+            </div>
+            <div class="lietuviu">
             <label for="lt-update">Lietuviu</label>
             <input type="text" id="lt-update">
+            </div>
+            <div class="mygtukai">
             <button id="update_button" type="submit">Update</button>
             <button id="cancel_button" type="button">Cancel</button>
+            </div>
         </form>
         </div>`
     }
 
     generateTitles() {
-        return `<div class="titles">
+        return `<div class="titles1">
                 <div class="english-title">
                     <h2>EN</h2>
                 </div>
                 <div class="lithuanian-title">
                     <h2>LT</h2>
                 </div>
-                <div class="actions">
+                <div class="actions1">
                     <h2>Actions</h2>
                 </div>
             </div>`
@@ -168,7 +174,7 @@ class Dictionary {
         this.enWordDOM = document.getElementById('en');
         this.ltWordDOM = document.getElementById('lt');
         this.buttonSaveDOM = document.getElementById('save');
-        this.titlesDOM = document.querySelector('.titles')
+        this.titlesDOM = document.querySelector('.titles1')
 
         this.updateFormDOM = document.getElementById('update_task')
         this.updateEnWordDOM = document.getElementById('en-update')
